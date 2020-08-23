@@ -1,3 +1,10 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+#home {
+    background: lightblue;
+}
 #header-img {
     width: 100vw;
     height: 200px;
@@ -5,12 +12,18 @@
 
 #video {
     width: 60vw;
+    justify-items: center;
 }
 
 #nav-bar {
     display: flex;
     list-style: none;
     flex-direction: row;
+    text-decoration: none;
+}
+
+#nav-links {
+    text-decoration: none;
 }
 
 @media (max-width: 600px) {
